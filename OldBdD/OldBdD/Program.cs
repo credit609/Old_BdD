@@ -10,6 +10,14 @@ namespace OldBdD
     {
         static void Main(string[] args)
         {
+            BinarySearch.SimpleTest();
+            BinarySearch.TestNegativeNumbers();
+            BinarySearch.TestRepeatingNumbers();
+            BinarySearch.TestNonExistentElement();
+            BinarySearch.TestEmptyArray();
+            BinarySearch.StressTest();
+
+            Console.ReadKey();
         }
     }
 }
